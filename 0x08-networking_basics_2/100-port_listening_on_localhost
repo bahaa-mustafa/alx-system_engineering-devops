@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Receiving the text on the other side
+nc -lk localhost 98
