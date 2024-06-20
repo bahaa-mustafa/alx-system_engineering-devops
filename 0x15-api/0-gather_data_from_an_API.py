@@ -30,10 +30,12 @@ if __name__ == "__main__":
         task_done = [tasks for task in tasks if task.get('completed')]
 
         # display progress of todo list
-        print("Employee {} is done with tasks({}/{}):".format(employee_name, len(task_done), len(tasks)))
+        print("Employee {} is done with tasks({}/{}):"
+              .format(employee_name, len(task_done), len(tasks)))
         for task in task_done:
             print("\t{}".format(task.get('title')))
         
     else:
         # display Error in fail of reqest
-        print("Error: Unable to fetch data. Status code: {}".format(respose.status_code))
+        print("Error: Unable to fetch data. Status code: {}"
+              .format(respose.status_code))
