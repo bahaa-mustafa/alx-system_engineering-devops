@@ -1,6 +1,7 @@
 #!/usr/bin/python3
-# using REST API as a python script for employee ID
-# to return information about todo list progress
+
+"""using REST API as a python script for employee ID
+ to return information about todo list progress"""
 
 import requests
 from sys import argv
