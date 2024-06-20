@@ -37,4 +37,5 @@ if __name__ == "__main__":
 
     else:
         # display Error in fail of reqest
-        print( f"Error: Unable to fetch data. Status code: {respose.status_code}")
+        print("Error: Unable to fetch data. Status code: {}"
+              .format(respose.status_code))
