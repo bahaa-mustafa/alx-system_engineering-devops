@@ -34,7 +34,7 @@ if __name__ == "__main__":
               .format(employee_name, len(task_done), len(tasks)))
         for task in task_done:
             print("\t{}".format(task.get('title')))
-        
+
     else:
         # display Error in fail of reqest
         print("Error: Unable to fetch data. Status code: {}"
